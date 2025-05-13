@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, section, article, footer {
+      padding: 20px;
+      margin: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    video, audio {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi! I'm Nishmitha k, a web development enthusiast.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am passionate about technology, design, and building responsive websites.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Project 1: Responsive Website for shopping online</h3>
+        <ul>
+          <li>Used HTML5 and CSS3</li>
+          <li>Implemented mobile responsiveness</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="media">
+      <h2>Introduction Video</h2>
+      <video controls>
+        <source src="c:\Users\User\Downloads\web development video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Background Music</h3>
+      <audio controls autoplay loop>
+        <source src="c:\Users\User\Downloads\smooth-intro-72591.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: nishmithanishu77@gmail.com</p>
+    <p>&copy; 2025 Nishmitha</p>
+  </footer>
+
+</body>
+</html>
